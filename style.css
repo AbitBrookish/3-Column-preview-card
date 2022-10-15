@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap');
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -27,12 +25,18 @@ body {
   margin: 10.5rem 16.25rem;
   padding: 0;
   min-width: 57.5rem;
-  min-height: 31.125rem;
+  max-width: 57.5rem;
+  flex: 1;
   display: flex;
 }
 
 .info-container {
   padding: 3rem;
+  flex: 1;
+}
+
+@media (max-width: 40rem) {
+
 }
 
 .info-container h1 {
@@ -48,6 +52,14 @@ body {
   font-size: 14px;
   line-height: 26px;
   margin-bottom: 5rem;
+  max-height: 210px;
+}
+
+@media (max-width: 40rem) {
+  .info-container p {
+    margin-bottom: 26px;
+  }
+
 }
 
 .btn {
