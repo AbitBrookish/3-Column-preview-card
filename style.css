@@ -35,10 +35,6 @@ body {
   flex: 1;
 }
 
-@media (max-width: 40rem) {
-
-}
-
 .info-container h1 {
   color: hsl(0, 0%, 95%);
   font-family: 'Big Shoulders Display', 'Times New Roman', Times, serif;
@@ -53,13 +49,6 @@ body {
   line-height: 26px;
   margin-bottom: 5rem;
   max-height: 210px;
-}
-
-@media (max-width: 40rem) {
-  .info-container p {
-    margin-bottom: 26px;
-  }
-
 }
 
 .btn {
