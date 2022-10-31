@@ -21,7 +21,7 @@ body {
   padding: 3.5rem;
 }
 
-.info-container h1 {
+.info-container h2 {
   color: hsl(0, 0%, 95%);
   font-family: 'Big Shoulders Display', 'Times New Roman', Times, serif;
   font-weight: 700;
@@ -115,7 +115,7 @@ body {
     display: flex;
   }
 
-  .info-container h1 {
+  .info-container h2 {
     margin: 2.25rem 0;
   }
 
